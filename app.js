@@ -40,11 +40,19 @@ x = x*10;
 x = x/2;
 x = x%2;*/
 
-let vehiculos = 40;
+/*let vehiculos = 40;
 let vehiculosBaja = 10;
 let vehiculosElectricos = 15;
 vehiculos-= vehiculosBaja;
 vehiculos+=vehiculosElectricos;
 
-console.log("La policia tiene: ",vehiculos, "en total");
+console.log("La policia tiene: ",vehiculos, "en total");*/
 
+
+let listaCompra = ["pan","fruta","pescado","leche"];
+let cantidades = [3,5,8,13];
+let registroEntradas = [true,true,false,true,true];
+
+let listaCompra2 = ["pan",["manzana","pera"],"pescado",["leche","queso"]];
+
+console.log(listaCompra2); 
