@@ -56,3 +56,12 @@ let registroEntradas = [true,true,false,true,true];
 let listaCompra2 = ["pan",["manzana","pera"],"pescado",["leche","queso"]];
 
 console.log(listaCompra2); 
+
+let listaCompra3 = {
+    panaderia: ["bolleria","pan"],
+    fruta: ["manzana","pera"],
+    pescado: "atun",
+    lacteos: ["queso", "yogur"]
+}
+
+console.log(listaCompra3); 
