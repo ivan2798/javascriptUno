@@ -33,11 +33,18 @@ console.log(num1===num2); //compara el tipo tambien
 */
 
 
-let x=5;
+/*let x=5;
 x = x+5;
 x = x-3;
 x = x*10;
 x = x/2;
-x = x%2;
+x = x%2;*/
 
-console.log("El valor de x es: ",x);
+let vehiculos = 40;
+let vehiculosBaja = 10;
+let vehiculosElectricos = 15;
+vehiculos-= vehiculosBaja;
+vehiculos+=vehiculosElectricos;
+
+console.log("La policia tiene: ",vehiculos, "en total");
+
